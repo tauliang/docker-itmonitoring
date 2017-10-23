@@ -21,8 +21,8 @@ services:
       SPLUNK_ENABLE_LISTEN: 9997
       SPLUNK_ADD: tcp 1514
       SPLUNK_USER: root
-      SPLUNK_ADD_1: "index docker"
-      SPLUNK_ADD_2: "index mysql_logs"
+      #SPLUNK_ADD_1: "index docker"
+      #SPLUNK_ADD_2: "index mysql_logs"
     volumes_from:
       - vsplunk
     volumes:
