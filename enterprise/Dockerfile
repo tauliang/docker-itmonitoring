@@ -1,5 +1,5 @@
 #https://docs.docker.com/engine/reference/builder/
-FROM splunk/splunk:6.5.3
+FROM repo.splunk.com/splunk/core/forwarder/minty:c8a78efdd40f
 
 ENV SPLUNK_BACKUP_APP ${SPLUNK_BACKUP_DEFAULT_ETC}/etc/apps
 
